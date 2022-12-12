@@ -25,7 +25,7 @@ const ChooseUs = () => {
                         <div className="choose__img">
 
                             {
-                                showVideo ? <ReactPlayer url='https://www.youtube.com/watch?v=_g45BJCAXu4' controls width='100%' height='300' /> : <img src={chooseImg} alt="" className='w-100' />
+                                showVideo ? <ReactPlayer url='' controls width='100%' height='300' /> : <img src={chooseImg} alt="" className='w-100' />
                             }
 
 
